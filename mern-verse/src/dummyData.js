@@ -1,0 +1,103 @@
+export const Users = [
+  {
+    id: 1,
+    profilePicture: 'person/kise.jpg',
+    username: 'Kise',
+  },
+  {
+    id: 2,
+    profilePicture: 'person/kaneki.jpg',
+    username: 'Ken Kaneki',
+  },
+  {
+    id: 3,
+    profilePicture: 'person/Zenitsu.jpg',
+    username: 'Kise',
+  },
+  {
+    id: 4,
+    profilePicture: 'person/akashi.jpg',
+    username: 'Akashi',
+  },
+  {
+    id: 5,
+    profilePicture: 'person/deku.jpg',
+    username: 'Deku',
+  },
+  {
+    id: 6,
+    profilePicture: 'person/meliodas.jpg',
+    username: 'Meliodas',
+  },
+  {
+    id: 7,
+    profilePicture: 'person/murasakibara.jpg',
+    username: 'Murasakibara',
+  },
+];
+
+export const Posts = [
+  {
+    id: 1,
+    desc: 'Jin Mori, Monkey King',
+    photo: 'post/king.png',
+    date: '5 mins ago',
+    userId: 1,
+    like: 32,
+    comment: 9,
+  },
+  {
+    id: 2,
+    desc: 'Jin Mori, Jin Taejin',
+    photo: 'post/goh1.png',
+    date: '15 mins ago',
+    userId: 2,
+    like: 21,
+    comment: 14,
+  },
+  {
+    id: 3,
+    desc: 'Shinra, Devils Footprint',
+    photo: 'post/shinra.png',
+    date: '15 mins ago',
+    userId: 3,
+    like: 32,
+    comment: 9,
+  },
+  {
+    id: 4,
+    desc: 'Beautiful Sunset',
+    photo: 'post/sunset2.jpg',
+    date: '25 mins ago',
+    userId: 4,
+    like: 32,
+    comment: 9,
+  },
+  {
+    id: 5,
+    desc: 'Otk e-fashion Landing Page',
+    photo: 'post/otk.png',
+    date: '35 mins ago',
+    userId: 5,
+    like: 87,
+    comment: 94,
+  },
+  {
+    id: 6,
+    desc: 'Jin Taejin',
+    photo: 'post/goh2.png',
+    date: '35 mins ago',
+    userId: 6,
+    like: 62,
+    comment: 90,
+  },
+  {
+    id: 7,
+    desc: 'Shadow Monarch, Sung Jin Woo',
+    photo: 'post/background.jpg',
+    date: '36 mins ago',
+    userId: 7,
+    like: 254,
+    comment: 1094,
+  },
+];
