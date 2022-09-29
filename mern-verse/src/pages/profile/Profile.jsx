@@ -11,7 +11,7 @@ import RightBar from '../../components/rightbar/RightBar';
 import './profile.css';
 
 const Profile = () => {
-  const PublicFolder = process.env.REACT_APP_PUBLIC_FOLDER
+  const PublicFolder = process.env.REACT_APP_PUBLIC_FOLDER;
   return (
     <>
       <TopBar />
@@ -39,7 +39,7 @@ const Profile = () => {
             </div>
           </div>
           <div className="profileRightBottom">
-            <Feeds />
+            <Feeds username="shinobi" />
             <RightBar profile />
           </div>
         </div>
